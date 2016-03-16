@@ -75,7 +75,7 @@ add_action_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  actionlib_msgs std_msgs#   std_msgs
+  actionlib_msgs std_msgs
 )
 
 ################################################
@@ -95,6 +95,7 @@ generate_messages(
 ## Generate dynamic reconfigure parameters in the 'cfg' folder
 generate_dynamic_reconfigure_options(
  cfg/forward.cfg
+ cfg/forwardServer.cfg
  cfg/turning.cfg
 )
 
